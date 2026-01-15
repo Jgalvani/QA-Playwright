@@ -300,7 +300,7 @@ MIT License
 
 ## Author
 
-QA Automation Engineer
+Jean-Christophe Galvani
 
 ---
 
