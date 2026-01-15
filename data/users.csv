@@ -1,0 +1,9 @@
+username,password,description,expected_result,error_message
+standard_user,secret_sauce,Standard user with full access,success,
+performance_glitch_user,secret_sauce,User with slow performance,success,
+visual_user,secret_sauce,User with visual bugs,success,
+locked_out_user,secret_sauce,Locked out user,error,Epic sadface: Sorry this user has been locked out.
+invalid_user,wrong_password,Non-existent user,error,Epic sadface: Username and password do not match any user in this service
+,secret_sauce,Empty username,error,Epic sadface: Username is required
+standard_user,,Empty password,error,Epic sadface: Password is required
+,,Empty credentials,error,Epic sadface: Username is required

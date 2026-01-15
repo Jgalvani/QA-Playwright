@@ -1,0 +1,64 @@
+{
+  "valid_checkout_data": [
+    {
+      "first_name": "John",
+      "last_name": "Doe",
+      "postal_code": "12345",
+      "description": "Standard US checkout"
+    },
+    {
+      "first_name": "Marie",
+      "last_name": "Dupont",
+      "postal_code": "75001",
+      "description": "French customer"
+    },
+    {
+      "first_name": "Hans",
+      "last_name": "Mueller",
+      "postal_code": "10115",
+      "description": "German customer"
+    },
+    {
+      "first_name": "Ana",
+      "last_name": "Garcia-Rodriguez",
+      "postal_code": "28001",
+      "description": "Spanish customer with hyphenated name"
+    },
+    {
+      "first_name": "Jean-Pierre",
+      "last_name": "Martin",
+      "postal_code": "69001",
+      "description": "Customer with hyphenated first name"
+    }
+  ],
+  "invalid_checkout_data": [
+    {
+      "first_name": "",
+      "last_name": "Doe",
+      "postal_code": "12345",
+      "description": "Missing first name",
+      "expected_error": "Error: First Name is required"
+    },
+    {
+      "first_name": "John",
+      "last_name": "",
+      "postal_code": "12345",
+      "description": "Missing last name",
+      "expected_error": "Error: Last Name is required"
+    },
+    {
+      "first_name": "John",
+      "last_name": "Doe",
+      "postal_code": "",
+      "description": "Missing postal code",
+      "expected_error": "Error: Postal Code is required"
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "postal_code": "",
+      "description": "All fields empty",
+      "expected_error": "Error: First Name is required"
+    }
+  ]
+}

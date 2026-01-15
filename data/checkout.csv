@@ -1,0 +1,10 @@
+first_name,last_name,postal_code,description,expected_error
+John,Doe,12345,Standard US checkout,
+Marie,Dupont,75001,French customer,
+Hans,Mueller,10115,German customer,
+Ana,Garcia-Rodriguez,28001,Spanish customer with hyphenated name,
+Jean-Pierre,Martin,69001,Customer with hyphenated first name,
+,Doe,12345,Missing first name,Error: First Name is required
+John,,12345,Missing last name,Error: Last Name is required
+John,Doe,,Missing postal code,Error: Postal Code is required
+,,,All fields empty,Error: First Name is required
