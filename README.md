@@ -23,7 +23,7 @@ This framework automates end-to-end testing of the [Sauce Demo](https://www.sauc
 ## Project Structure
 
 ```
-QA/
+QA Playwright/
 ├── config/              # Configuration settings
 │   └── settings.py      # Environment configuration
 ├── data/                # Test data files
