@@ -47,7 +47,3 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Pipenv
-Pipfile
-Pipfile.lock

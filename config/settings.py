@@ -1,5 +1,5 @@
 """
-Configuration settings for the QA automation framework.
+Configuration settings for the QA automation framework with Playwright.
 Loads environment variables and provides centralized configuration.
 """
 
